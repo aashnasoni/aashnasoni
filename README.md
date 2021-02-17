@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Ways of Seeing</title>
+    <title>Week 03 Response</title>
 </head>
 <body style= "background-color: rgb(247, 164, 195)">
     <h1
