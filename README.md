@@ -5,7 +5,7 @@
 </head>
 <body style= "background-color: rgb(247, 164, 195)">
     <h1
-       style = "font-size: 40px;font-family: 'Ariel', sans-serif;text-align: center;" >Response to Ways of Seeing</h1>
+       style = "font-size: 40px;font-family: 'Ariel', sans-serif;text-align: center;" >Week 03</h1>
     
        <br>
 
