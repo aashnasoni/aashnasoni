@@ -18,10 +18,11 @@ button:hover {
    
 }
 #theNose {
-    height: 25px;
-    width: 25px;
-    background-color: #bbb;
+    height: 50px;
+    width: 50px;
+    background-color: rgb(0, 0, 0);
     border-radius: 50%;
+    justify-content: center;
     display: inline-block;
     
 }
