@@ -130,3 +130,12 @@ button:hover {
     flex-grow: 1;
     margin: 2px;
 }
+
+#Wireframe {
+    text-align:center;
+    font-size: 20px;
+    position: fixed;
+    top: 90%;
+    left: 48%;
+
+}
