@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Response to Medium is the Massage</title>
+    <link rel="stylesheet" href="stylesheet.css" />
+    <script async src="theMedium.js"></script>
+  </head>
+  <body>
+    <h1>Response to Medium is the Massage</h1>
+    <div> <button id = "myButton">Click here to change background colour</button></div>
+
+    <div class="topnav" id="myTopnav">
+      <a href="#home" class="active">Home</a>
+      <a href="media.html">Media</a>
+      <a href="internet.html">Internet</a>
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+      </a>
+    </div>
+
+    <div onmouseover="mOver(this)" onmouseout="mOut(this)" 
+    style="background-color:hsl(336, 40%, 70%);width:400px;height:30px;padding:30px;">
+    Hover here for thoughts</div>
+    
+    <script>
+    function mOver(obj) {
+      obj.innerHTML = "We create our own social structures to communicate. The internet and media play a big role in this."
+    }
+    
+    function mOut(obj) {
+      obj.innerHTML = "Hover here for thoughts"}
+    
+      </script>
+
+    <div class="image-section">
+      <div class="section-style">
+        <img src="https://hiseye.org/wp-content/uploads/2020/06/Social-Media-Activism-1.jpg" height=500 width=500 alt="" />
+        
+        <p>Black Lives Matter</p>
+      </div>
+
+      <div class="section-style">
+        <img src="https://www.imperial.ac.uk/ImageCropToolT4/imageTool/uploaded-images/newseventsimage_1585238905621_mainnews2012_x4.jpg" height=500 width=500 alt="" />
+        <p>Pandemic</p>
+      </div>
+    </div>
+  
+</body>
+</html>
