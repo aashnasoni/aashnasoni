@@ -1,0 +1,132 @@
+body{
+    display:flex; 
+    font-family: "Indie Flower"; 
+    background-color: #fefed8; 
+    border-style: dotted; 
+    border-width: 10px; 
+    border-color: #b3dce2; 
+}
+
+.character_selection {
+    display:flex; 
+    flex-direction: column; 
+    justify-content: space-between;
+    background-color: white; 
+}
+
+.left { 
+    width: 20%; 
+}
+
+h1 { 
+    font-size: 24px; 
+    text-align: center;
+}
+
+.character_box{
+    display: flex; 
+    align-items: center;
+    flex-direction: column; 
+    justify-content: center;
+}
+
+.character_box:hover{
+    cursor: grab; 
+    opacity: 0.3; 
+    transition: ease-in-out 1s; 
+}
+
+.character { 
+    width: 18vh; 
+    height: 18vh; 
+    background-color: #b3dce2; 
+}
+
+.image{
+    width: 18vh; 
+    height: 18vh; 
+}
+
+.header {
+    width: 35%; 
+    height: 35%; 
+}
+
+h2 { 
+    margin-top: 2px; 
+    font-size: 20px;
+    font-weight: bold;  
+}
+
+.game {
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    flex-direction: column; 
+    background-color: white; 
+}
+
+.right { 
+    width: 80%; 
+}
+
+.tile-container {
+	width: 50%;
+    overflow: inherit;
+    padding-left: 200px; 
+}
+
+.tile {
+	height: 20vh;
+	width: 20vh;
+    margin: 5px;
+	float: left;
+	background-image: url("cover_tile.png");
+}
+
+.tile:hover{
+    cursor: grab; 
+    opacity: 0.3; 
+    transition: ease-in-out 1s; 
+}
+
+.Betel{
+    background: #b3dce2 url("char1.png");
+    background-size: 100%; 
+}
+
+.Luna {
+    background: #b3dce2 url("char2.png");
+    background-size: 100%; 
+}
+
+.Halley {
+    background: #b3dce2 url("char3.png");
+    background-size: 100%; 
+}
+
+.Meep {
+    background: #b3dce2 url("char4.png");
+    background-size: 100%; 
+}
+
+div#game-result {
+    clear: both;
+    margin-top: 20px;
+    padding: 10px;
+    display:none;
+    background: none;
+}
+
+/* div#game-result.win {
+    background: #7fdec5;
+}
+
+div#game-result.lost {
+    background: #ffc433
+} */
+
+.reset {
+    cursor:pointer;
+    text-decoration: underline;
+}
