@@ -1,0 +1,198 @@
+
+a.btn:before {
+    font-family: FontAwesome;
+    content: "\f041";
+    display: inline-block;
+    vertical-align: middle;
+}
+
+@media (max-width: 320px) {
+    .map {
+        height: 200px;
+        margin: 4rem 0;
+   }
+}
+@media (min-width: 321px) and (max-width: 480px) {
+    .map {
+        height: 250px;
+        margin: 4rem 0;
+   }
+}
+@media (min-width: 481px) and (max-width: 575.98px) {
+    .map {
+        height: 350px;
+        margin: 4rem 0;
+   }
+}
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .map {
+        height: 400px;
+        margin: 4rem 0;
+   }
+}
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .map {
+        margin: 4rem 0;
+        height: 500px;
+   }
+}
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .map {
+        margin: 6rem 0;
+        height: 600px;
+   }
+}
+@media (min-width: 1200px) {
+    .map {
+        margin: 8rem 0;
+        height: 600px;
+   }
+}
+.map img {
+    margin-top: -12.5%;
+    position: relative;
+    z-index: 3;
+}
+.map button.btn.pop, .map a.btn.pop {
+    z-index: 5;
+    position: absolute;
+    color: #23303f;
+    min-width: 0;
+}
+@media (max-width: 575.98px) {
+    .map button.btn.pop, .map a.btn.pop {
+        font-size: 1rem;
+   }
+}
+@media (min-width: 576px) {
+    .map button.btn.pop, .map a.btn.pop {
+        font-size: 2rem;
+   }
+}
+.map button.btn.pop:focus, .map a.btn.pop:focus {
+    box-shadow: unset;
+    outline: 0;
+    border: 0;
+}
+.map button.btn.pop.default-popup, .map a.btn.pop.default-popup {
+    z-index: -1;
+    right: 30%;
+}
+@media (max-width: 767.98px) {
+    .map button.btn.pop.default-popup, .map a.btn.pop.default-popup {
+        bottom: 30%;
+   }
+}
+@media (min-width: 768px) {
+    .map button.btn.pop.default-popup, .map a.btn.pop.default-popup {
+        top: 30%;
+   }
+}
+
+.map button.btn.pop.california, .map a.btn.pop.california {
+    left: 7%;
+    top: 30%;
+}
+.map button.btn.pop.washington, .map a.btn.pop.washington {
+    left: 14%;
+    top: -17%;
+}
+.map button.btn.pop.illinois, .map a.btn.pop.illinois {
+    left: 60%;
+    top:20%;
+}
+.map button.btn.pop.florida, .map a.btn.pop.florida{
+    right: 19%;
+    top: 73%;
+}
+.map button.btn.pop.newyork, .map a.btn.pop.newyork{
+    right: 15%;
+    top: 4%;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    background: #815d96;
+}
+.navbar {
+    background:#000000;
+}
+.nav-link,
+.navbar-brand {
+    color: #fff;
+    cursor: pointer;
+}
+.nav-link {
+    margin-right: 1em !important;
+}
+.nav-link:hover {
+    color: rgb(129, 129, 129);
+}
+.navbar-collapse {
+    justify-content: flex-end;
+}
+.map-container{
+    overflow:hidden;
+    padding-bottom:50%;
+    position:relative;
+    height:0;
+    }
+    .map-container iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+    }
+
+    h1{
+        padding-top:50px; 
+        padding-bottom: 0;
+        text-align: center; 
+        font-size: 70px; 
+        font-family: Neucha;  
+        font-style: bold;
+        color:#ffffffbb; ; 
+    }
+
+    h2{
+        text-align: center; 
+        position: relative;
+        left: 0%;
+        bottom:0%;
+        font-size: 30px; 
+        font-family: Neucha;  
+        font-style: bold;
+        color:#ffffffbb; 
+        ; }
+
+.description {
+    left: 50%;
+    position: absolute;
+    top: 45%;
+    transform: translate(-50%, -55%);
+    text-align: center;
+}
+
+
+.description p {
+    color: #fff;
+    font-size: 1.3rem;
+    line-height: 1.5;
+}
+.description {
+    left: 50%;
+    position: absolute;
+    top: 60%;
+    transform: translate(-50%, -55%);
+    text-align: center;
+}
+.description h1 {
+    color: #e0b5f1;
+}
+.description p {
+    color: #fff;
+    font-size: 1.3rem;
+    line-height: 1.5;
+}

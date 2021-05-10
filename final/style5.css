@@ -1,0 +1,213 @@
+
+a.btn:before {
+    font-family: FontAwesome;
+    content: "\f041";
+    display: inline-block;
+    vertical-align: middle;
+}
+
+@media (max-width: 320px) {
+    .map {
+        height: 200px;
+        margin: 4rem 0;
+   }
+}
+@media (min-width: 321px) and (max-width: 480px) {
+    .map {
+        height: 250px;
+        margin: 4rem 0;
+   }
+}
+@media (min-width: 481px) and (max-width: 575.98px) {
+    .map {
+        height: 350px;
+        margin: 4rem 0;
+   }
+}
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .map {
+        height: 400px;
+        margin: 4rem 0;
+   }
+}
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .map {
+        margin: 4rem 0;
+        height: 500px;
+   }
+}
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .map {
+        margin: 6rem 0;
+        height: 600px;
+   }
+}
+@media (min-width: 1200px) {
+    .map {
+        margin: 8rem 0;
+        height: 600px;
+   }
+}
+.map img {
+    margin-top: -12.5%;
+    position: relative;
+    z-index: 3;
+}
+.map button.btn.pop, .map a.btn.pop {
+    z-index: 5;
+    position: absolute;
+    color: #23303f;
+    min-width: 0;
+}
+@media (max-width: 575.98px) {
+    .map button.btn.pop, .map a.btn.pop {
+        font-size: 1rem;
+   }
+}
+@media (min-width: 576px) {
+    .map button.btn.pop, .map a.btn.pop {
+        font-size: 2rem;
+   }
+}
+.map button.btn.pop:focus, .map a.btn.pop:focus {
+    box-shadow: unset;
+    outline: 0;
+    border: 0;
+}
+.map button.btn.pop.default-popup, .map a.btn.pop.default-popup {
+    z-index: -1;
+    right: 30%;
+}
+@media (max-width: 767.98px) {
+    .map button.btn.pop.default-popup, .map a.btn.pop.default-popup {
+        bottom: 30%;
+   }
+}
+@media (min-width: 768px) {
+    .map button.btn.pop.default-popup, .map a.btn.pop.default-popup {
+        top: 30%;
+   }
+}
+
+.map button.btn.pop.california, .map a.btn.pop.california {
+    left: 7%;
+    top: 30%;
+}
+.map button.btn.pop.washington, .map a.btn.pop.washington {
+    left: 14%;
+    top: -17%;
+}
+.map button.btn.pop.illinois, .map a.btn.pop.illinois {
+    left: 60%;
+    top:20%;
+}
+.map button.btn.pop.florida, .map a.btn.pop.florida{
+    right: 19%;
+    top: 73%;
+}
+.map button.btn.pop.newyork, .map a.btn.pop.newyork{
+    right: 15%;
+    top: 4%;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    background: #da9397;
+}
+.navbar {
+    background:#000000;
+}
+.nav-link,
+.navbar-brand {
+    color: #fff;
+    cursor: pointer;
+}
+.nav-link {
+    margin-right: 1em !important;
+}
+.nav-link:hover {
+    color: rgb(129, 129, 129);
+}
+.navbar-collapse {
+    justify-content: flex-end;
+}
+.map-container{
+    overflow:hidden;
+    padding-bottom:50%;
+    position:relative;
+    height:0;
+    }
+    .map-container iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+    }
+
+    h1{
+        padding-top:40px; 
+        padding-bottom: 0;
+        text-align: center; 
+        font-size: 70px; 
+        font-family: Neucha;  
+        font-style: bold;
+        color:#000000bb; ; 
+    }
+
+    h2{
+        text-align: center; 
+        position: relative;
+        font-size: 25px; 
+        font-family: Neucha;  
+        font-style: bold;
+        color:#000000bb; 
+        ; 
+    }
+    .features {
+        text-align: center; 
+        margin: 3em auto;
+        padding: 0;
+        position: relative;
+    }
+    .feature-title {
+        text-align: center; 
+        color: #333;
+        font-size: 50;
+        font-weight: 700;
+        margin-bottom: 20px;
+        text-transform: uppercase;
+    }
+    .features img {
+        text-align: center; 
+        -webkit-box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
+        -moz-box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
+        box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
+        margin-bottom: 16px;
+        height: 40%;
+        width:70%;
+    }
+
+    .picture{
+        width: 30%;
+        float: right;
+      height: auto;
+      position: bottom center;
+        border-style: none; 
+        border-color: #FFBA49; 
+        border-width:20px; 
+        
+    }
+    
+    .picture1{
+        width: 30%;
+        float: left;
+      height: auto;
+      position: bottom center;
+        border-style: none; 
+        border-color: #FFBA49; 
+        border-width:20px; 
+        
+    }
+
